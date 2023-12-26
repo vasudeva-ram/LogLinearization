@@ -138,7 +138,7 @@ display(eqn.loglin())
 ```
 
 
-$\displaystyle - \hat{R}_t = \hat{C}_t \sigma - \hat{C}_{t+1} \sigma - \hat{\Pi}_{t+1}$
+$\displaystyle - \hat{R_t} = \hat{C_t} \sigma - \hat{C_{t+1}} \sigma - \hat{\Pi}_{t+1}$
 
 
 # Some caveats on what the package does not handle
