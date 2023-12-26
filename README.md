@@ -81,7 +81,7 @@ $\displaystyle \hat{{\frac{W}{P}}}_t = \hat{{C}}_t {\sigma} + \hat{{N}}_t {\phi}
 
 
 
-$\displaystyle - \hat{{R^n}}_t = \hat{{C}}_t {\sigma} - \hat{{C}}_{t+1} {\sigma} - \hat{{\Pi}}_{t+1}$
+$\displaystyle - \hat{{R}}^n_t = \hat{C_t} {\sigma} - \hat{C_{t+1}} {\sigma} - \hat{{\Pi}}_{t+1}$
 
 
 
@@ -93,11 +93,11 @@ $\displaystyle \hat{{\frac{W}{P}}}_t = \hat{{A}}_t - \hat{{N}}_t {\alpha}$
 
 
 
-$\displaystyle \hat{{R^{r}}}_t = \hat{{R^n}}_t - \hat{{\Pi}}_{t+1}$
+$\displaystyle \hat{R^r_t} = \hat{R}^n_t - \hat{{\Pi}}_{t+1}$
 
 
 
-$\displaystyle \hat{{R^n}}_t = \frac{\bar{{\Pi}}^{{\phi_{\pi}}} \hat{{\Pi}}_t {\phi_{\pi}} + \bar{{\varepsilon_m}} \hat{{\varepsilon_m}}_t {\beta}}{\bar{{\Pi}}^{{\phi_{\pi}}} + \bar{{\varepsilon_m}} {\beta}}$
+$\displaystyle \hat{R^n_t} = \frac{\bar{{\Pi}}^{{\phi_{\pi}}} \hat{\Pi_t} {\phi_{\pi}} + \bar{{\varepsilon_m}} \hat{\varepsilon^m_t} {\beta}}{\bar{{\Pi}}^{{\phi_{\pi}}} + \bar{{\varepsilon_m}} {\beta}}$
 
 
 ## Option 2: Building a ModEconomy object
