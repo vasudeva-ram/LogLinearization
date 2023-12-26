@@ -160,8 +160,3 @@ Since log-linearization requires taking logs, applying this prcocedure to this e
 The most useful simplified representation of an equation depends on what you are looking to solve for.
 So some of the simplified log-linearized versions returned by this package may not immediately be in the optimal form for you.
 
-
-
-```python
-# Some 
-```
