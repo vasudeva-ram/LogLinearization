@@ -3,6 +3,11 @@ The **LogLinearizer** package generates symbolic log-linearized representations 
 The tool is designed with macroeconomic DSGE models in mind, and supports the DYNARE notation.
 However, while DYNARE _solves_ the model, this package focuses on providing the symbolic linearized equations, which are often helpful in driving intuition.
 
+The log-linearized version of your model will follow the following notation:
+1. Percent deviations of a variable $X$ from its steady-state value will be indicated by a carat (hat) like so: $\hat{X}$
+2. Time notation is indicated by subscripts. For example, $\hat{X}_{t}$ is the log deviation of variable $X$ from its steady state at time $t$. Likewise, $\hat{X}_{t-1}$ and $\hat{X}_{t+1}$.
+3. Steady state values of the variable are denoted by a bar over the variable and no time subscript. Thus, $\bar{X}$ is the steady state value of X.
+
 # How to use the LogLinearization package
 There are two ways to use this package. 
 The first method assumes that you have a fully built out DYNARE mod file.
